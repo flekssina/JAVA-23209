@@ -1,0 +1,1450 @@
+2025-05-17 20:54:14.334 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-17 20:54:14.340 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-17 20:54:39.751 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-17 20:56:33.157 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-17 20:56:33.160 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-17 20:56:38.665 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-17 20:56:38.668 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-17 20:56:38.685 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь фд подключился
+2025-05-17 20:56:43.530 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от фд: привет
+2025-05-17 20:57:36.970 [pool-1-thread-1] ERROR c.f.chat.server.ClientHandler - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.server.ClientHandler.run(ClientHandler.java:42)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-17 20:57:36.973 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь фд отключился
+2025-05-17 20:57:46.066 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-17 20:57:46.069 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-17 20:57:46.080 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь дд подключился
+2025-05-17 20:57:52.039 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от дд: привет
+2025-05-17 20:57:56.933 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от дд: всем хай
+2025-05-17 20:58:01.843 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь дд отключился
+2025-05-17 20:58:01.844 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-17 20:58:01.845 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь дд отключился
+2025-05-17 21:19:32.154 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-17 22:18:05.732 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-17 22:18:05.735 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-17 22:18:38.314 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-17 22:18:38.324 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-17 22:18:38.368 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пп подключился
+2025-05-17 22:19:02.594 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-17 22:19:02.593 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-17 22:19:02.615 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь гол подключился
+2025-05-17 22:19:12.986 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от пп: привет
+2025-05-17 22:19:16.751 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от гол: как дела
+2025-05-17 22:19:21.084 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от гол: все супер
+2025-05-17 22:19:27.587 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от пп: у меня тоже супер
+2025-05-17 22:19:38.489 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от гол: лол кек чебурек
+2025-05-17 22:19:42.605 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от пп: пока пока
+2025-05-17 22:19:59.184 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пп отключился
+2025-05-17 22:19:59.198 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пп отключился
+2025-05-17 22:19:59.202 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-17 22:20:05.867 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-17 22:20:05.867 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь гол отключился
+2025-05-17 22:20:05.869 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь гол отключился
+2025-05-17 22:20:16.827 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 10:49:57.238 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 10:49:57.241 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 10:50:10.867 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 10:50:10.866 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 10:50:10.912 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь lll подключился
+2025-05-18 10:50:12.775 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от lll: jgfchgjkdfh
+2025-05-18 10:50:13.839 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от lll: jdgskjhj
+2025-05-18 10:50:14.739 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от lll: dnwajksnfjl
+2025-05-18 10:50:27.971 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 10:50:27.975 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 10:50:27.990 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь hhh подключился
+2025-05-18 10:50:32.911 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от hhh: jdhgfjsflj
+2025-05-18 10:50:34.075 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от hhh: nsdjknfjsn
+2025-05-18 10:50:35.225 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от hhh: nfdsjs
+2025-05-18 10:50:49.471 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь lll отключился
+2025-05-18 10:50:49.475 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь lll отключился
+2025-05-18 10:50:49.476 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 10:50:52.403 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь hhh отключился
+2025-05-18 10:50:52.403 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь hhh отключился
+2025-05-18 10:50:52.407 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:00:40.169 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 11:01:36.060 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 11:01:36.063 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 11:01:45.427 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:01:45.426 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:01:45.473 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь аа подключился
+2025-05-18 11:01:52.014 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от аа: ааа
+2025-05-18 11:01:54.222 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от аа: ааа
+2025-05-18 11:01:55.371 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от аа: аа
+2025-05-18 11:02:02.036 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь аа отключился
+2025-05-18 11:02:02.038 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь аа отключился
+2025-05-18 11:02:02.039 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:02:10.746 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 11:02:36.721 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 11:02:36.724 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 11:02:39.370 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:02:39.373 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:02:39.389 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ккк подключился
+2025-05-18 11:02:46.292 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ккк: приает
+2025-05-18 11:02:48.915 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ккк: лккепь
+2025-05-18 11:02:50.625 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ккк: лпькел
+2025-05-18 11:03:08.148 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ккк: ьплллаьпльеп
+2025-05-18 11:03:34.714 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ккк отключился
+2025-05-18 11:03:34.715 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:03:34.716 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ккк отключился
+2025-05-18 11:03:55.015 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:03:55.016 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:03:55.023 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ррр подключился
+2025-05-18 11:04:18.446 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ррр отключился
+2025-05-18 11:04:18.447 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:04:18.448 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ррр отключился
+2025-05-18 11:04:59.306 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 11:06:51.565 [AWT-EventQueue-0] ERROR c.f.chat.client.ui.LoginFrame - Ошибка при подключении к серверу
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:328)
+	at com.flekssina.chat.client.ChatClient.connect(ChatClient.java:34)
+	at com.flekssina.chat.client.ui.LoginFrame.login(LoginFrame.java:165)
+	at com.flekssina.chat.client.ui.LoginFrame.lambda$initComponents$0(LoginFrame.java:105)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-18 11:06:57.622 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 11:06:57.624 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 11:06:59.888 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:06:59.890 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:06:59.905 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ууу подключился
+2025-05-18 11:07:11.156 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ууу отключился
+2025-05-18 11:07:11.157 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:07:11.159 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ууу отключился
+2025-05-18 11:07:14.517 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 11:09:06.429 [AWT-EventQueue-0] ERROR c.f.chat.client.ui.LoginFrame - Ошибка при подключении к серверу
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:328)
+	at com.flekssina.chat.client.ChatClient.connect(ChatClient.java:34)
+	at com.flekssina.chat.client.ui.LoginFrame.login(LoginFrame.java:165)
+	at com.flekssina.chat.client.ui.LoginFrame.lambda$initComponents$0(LoginFrame.java:105)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-18 11:09:12.221 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 11:09:12.225 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 11:09:16.550 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:09:16.553 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:09:16.567 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пр подключился
+2025-05-18 11:11:16.157 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пр отключился
+2025-05-18 11:11:16.158 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:11:16.162 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пр отключился
+2025-05-18 11:25:41.203 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 11:47:54.530 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 11:47:54.533 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 11:48:06.203 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:48:06.207 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:48:06.250 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь при подключился
+2025-05-18 11:48:14.999 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:48:15.003 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:48:15.018 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ха подключился
+2025-05-18 11:48:30.095 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от при: прио
+2025-05-18 11:48:36.243 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ха: как дела/
+2025-05-18 11:48:39.892 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ха: хорошо
+2025-05-18 11:48:50.690 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от при: у меня тоже хорошо
+2025-05-18 11:48:58.821 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь при отключился
+2025-05-18 11:48:58.825 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь при отключился
+2025-05-18 11:48:58.825 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:49:23.249 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 11:49:23.252 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 11:49:23.267 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь паа подключился
+2025-05-18 11:49:33.993 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от паа: аоашаа
+2025-05-18 11:49:43.873 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь паа отключился
+2025-05-18 11:49:43.875 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь паа отключился
+2025-05-18 11:49:43.878 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:49:46.059 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ха отключился
+2025-05-18 11:49:46.059 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ха отключился
+2025-05-18 11:49:46.062 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 11:50:47.190 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 12:02:52.588 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 12:02:52.592 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 12:03:18.017 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:03:18.021 [Thread-0] ERROR com.flekssina.chat.server.ChatServer - Ошибка при принятии соединения
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:361)
+	at com.flekssina.chat.server.ChatServer.lambda$acceptClients$0(ChatServer.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 12:04:26.249 [Thread-0] ERROR com.flekssina.chat.server.ChatServer - Ошибка при принятии соединения
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:361)
+	at com.flekssina.chat.server.ChatServer.lambda$acceptClients$0(ChatServer.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 12:04:27.745 [AWT-EventQueue-0] ERROR c.f.chat.client.ui.LoginFrame - Ошибка при подключении Java-клиента к серверу
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2940)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3437)
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:973)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:404)
+	at com.flekssina.chat.client.ChatClient.connect(ChatClient.java:36)
+	at com.flekssina.chat.client.ui.LoginFrame.connectJavaClient(LoginFrame.java:207)
+	at com.flekssina.chat.client.ui.LoginFrame.login(LoginFrame.java:194)
+	at com.flekssina.chat.client.ui.LoginFrame.lambda$initComponents$0(LoginFrame.java:138)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-18 12:04:39.182 [Thread-0] ERROR com.flekssina.chat.server.ChatServer - Ошибка при принятии соединения
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:361)
+	at com.flekssina.chat.server.ChatServer.lambda$acceptClients$0(ChatServer.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 12:04:39.183 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:04:43.549 [AWT-EventQueue-0] ERROR c.f.chat.client.ui.LoginFrame - Ошибка при подключении XML-клиента к серверу
+java.net.SocketException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1231)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1218)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at com.flekssina.chat.common.xml.XMLProtocol.sendXML(XMLProtocol.java:90)
+	at com.flekssina.chat.client.xml.XMLChatClient.login(XMLChatClient.java:64)
+	at com.flekssina.chat.client.ui.LoginFrame.connectXmlClient(LoginFrame.java:228)
+	at com.flekssina.chat.client.ui.LoginFrame.login(LoginFrame.java:196)
+	at com.flekssina.chat.client.ui.LoginFrame.lambda$initComponents$0(LoginFrame.java:138)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-18 12:04:46.701 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:04:46.701 [Thread-0] ERROR com.flekssina.chat.server.ChatServer - Ошибка при принятии соединения
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:361)
+	at com.flekssina.chat.server.ChatServer.lambda$acceptClients$0(ChatServer.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 12:05:11.200 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 12:09:40.593 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 12:09:40.596 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 12:09:56.584 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 12:09:56.587 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 12:09:56.592 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 12:09:56.608 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ааа подключился
+2025-05-18 12:10:00.393 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 12:10:00.393 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ааа отключился
+2025-05-18 12:10:00.395 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ааа отключился
+2025-05-18 12:10:09.582 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 12:10:09.583 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 12:10:09.584 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:10:09.657 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь ууу подключился
+2025-05-18 12:10:12.895 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от ууу: рвкалору
+2025-05-18 12:10:14.719 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от ууу: оововов
+2025-05-18 12:10:17.990 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от ууу: ватоуо
+2025-05-18 12:10:24.994 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 12:10:25.033 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь ууу отключился
+2025-05-18 12:10:25.034 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь ууу отключился
+2025-05-18 12:10:32.544 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 12:53:36.998 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 12:53:37.000 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 12:54:00.471 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 12:54:00.472 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 12:54:00.472 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:54:00.541 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина подключился
+2025-05-18 12:54:06.580 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от алина: прикол
+2025-05-18 12:54:13.135 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 12:54:13.150 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина отключился
+2025-05-18 12:54:13.151 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина отключился
+2025-05-18 12:54:25.037 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 12:54:39.708 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 12:54:39.710 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 12:54:52.934 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 12:54:52.938 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 12:54:52.936 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:54:52.980 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина подключился
+2025-05-18 12:54:56.646 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от алина: привет всем
+2025-05-18 12:55:11.769 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 12:55:11.771 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 12:55:11.772 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:55:11.831 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь куртов подключился
+2025-05-18 12:55:25.403 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от куртов: как твои дела алина?
+2025-05-18 12:55:33.338 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от алина: супер мои дела
+2025-05-18 12:55:37.748 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от алина: сделала тебе лабы
+2025-05-18 12:55:53.019 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от куртов: блин молодец!!
+2025-05-18 12:56:05.458 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 12:56:05.460 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 12:56:05.461 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 12:56:05.516 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь декан подключился
+2025-05-18 12:56:12.515 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от декан: всем здорова??
+2025-05-18 12:56:32.490 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 12:56:32.492 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 12:56:32.497 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 12:56:32.519 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Пользователь уу подключился
+2025-05-18 12:56:38.444 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Сообщение от уу: всем прив
+2025-05-18 12:56:51.227 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Сообщение от уу: как дела
+2025-05-18 12:56:56.604 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Пользователь уу отключился
+2025-05-18 12:56:56.607 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Пользователь уу отключился
+2025-05-18 12:56:56.607 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 12:56:58.584 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 12:56:58.625 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь куртов отключился
+2025-05-18 12:56:58.625 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь куртов отключился
+2025-05-18 12:57:00.538 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 12:57:00.568 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина отключился
+2025-05-18 12:57:00.569 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина отключился
+2025-05-18 12:57:05.420 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 12:57:05.451 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь декан отключился
+2025-05-18 12:57:05.452 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь декан отключился
+2025-05-18 12:57:13.094 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:22:51.282 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:22:51.285 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:22:57.969 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:22:57.971 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:22:57.976 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:22:58.025 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь аа подключился
+2025-05-18 13:22:58.048 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь аа отключился
+2025-05-18 13:22:58.051 [Thread-0] ERROR com.flekssina.chat.client.ChatClient - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.client.ChatClient.receiveMessages(ChatClient.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 13:22:58.053 [Thread-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:23:47.237 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:23:52.148 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:23:52.150 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:24:02.373 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:24:02.375 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:24:02.380 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:24:02.425 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пп подключился
+2025-05-18 13:24:02.445 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь пп отключился
+2025-05-18 13:24:02.448 [Thread-0] ERROR com.flekssina.chat.client.ChatClient - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.client.ChatClient.receiveMessages(ChatClient.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 13:24:02.452 [Thread-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:24:15.052 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:24:15.055 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 13:24:15.057 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 13:24:15.127 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь вв подключился
+2025-05-18 13:24:22.947 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от вв: вввё
+2025-05-18 13:24:24.521 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от вв: вв
+2025-05-18 13:24:26.626 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от вв: вв
+2025-05-18 13:24:29.025 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 13:24:29.049 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь вв отключился
+2025-05-18 13:24:29.049 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь вв отключился
+2025-05-18 13:30:33.594 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:30:33.599 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:30:33.600 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:30:42.247 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:30:42.250 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:30:42.253 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:30:42.264 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ыы подключился
+2025-05-18 13:30:42.295 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ыы отключился
+2025-05-18 13:30:42.297 [Thread-0] ERROR com.flekssina.chat.client.ChatClient - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.client.ChatClient.receiveMessages(ChatClient.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 13:30:42.299 [Thread-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:32:01.733 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:32:01.736 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:32:01.737 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:32:06.981 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:32:06.984 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:32:06.985 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:32:17.513 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:32:17.516 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:32:17.520 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:32:17.530 [pool-1-thread-3] INFO  c.f.chat.server.ClientHandler - Пользователь оо подключился
+2025-05-18 13:32:17.567 [pool-1-thread-3] INFO  c.f.chat.server.ClientHandler - Пользователь оо отключился
+2025-05-18 13:32:17.569 [Thread-0] ERROR com.flekssina.chat.client.ChatClient - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.client.ChatClient.receiveMessages(ChatClient.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 13:32:17.570 [Thread-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:32:54.455 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:32:54.457 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:32:54.458 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:33:03.459 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:33:03.461 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:33:03.461 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:35:43.539 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:35:43.541 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:35:43.541 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:38:40.583 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера: Address already in use
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:45)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:38:40.585 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:38:40.586 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:40:17.118 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:42)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:40:17.121 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:40:17.121 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:41:44.014 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:42)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:41:44.017 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:41:44.018 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:45:28.017 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:42)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 13:45:28.019 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:45:28.020 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:45:37.069 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:45:42.687 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:45:42.690 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:46:04.827 [Thread-0] ERROR com.flekssina.chat.server.ChatServer - Ошибка при принятии соединения
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:361)
+	at com.flekssina.chat.server.ChatServer.lambda$acceptClients$0(ChatServer.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 13:46:06.800 [AWT-EventQueue-0] ERROR c.f.chat.client.ui.LoginFrame - Ошибка при подключении Java-клиента к серверу
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2940)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3437)
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:973)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:404)
+	at com.flekssina.chat.client.ChatClient.connect(ChatClient.java:41)
+	at com.flekssina.chat.client.ui.LoginFrame.connectJavaClient(LoginFrame.java:224)
+	at com.flekssina.chat.client.ui.LoginFrame.login(LoginFrame.java:211)
+	at com.flekssina.chat.client.ui.LoginFrame.lambda$initComponents$0(LoginFrame.java:138)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-18 13:46:09.268 [Thread-0] ERROR com.flekssina.chat.server.ChatServer - Ошибка при принятии соединения
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:760)
+	at java.base/java.net.Socket.connect(Socket.java:695)
+	at java.base/java.net.Socket.<init>(Socket.java:564)
+	at java.base/java.net.Socket.<init>(Socket.java:361)
+	at com.flekssina.chat.server.ChatServer.lambda$acceptClients$0(ChatServer.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 13:46:10.550 [AWT-EventQueue-0] ERROR c.f.chat.client.ui.LoginFrame - Ошибка при подключении Java-клиента к серверу
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2922)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2938)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3437)
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:973)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:404)
+	at com.flekssina.chat.client.ChatClient.connect(ChatClient.java:41)
+	at com.flekssina.chat.client.ui.LoginFrame.connectJavaClient(LoginFrame.java:224)
+	at com.flekssina.chat.client.ui.LoginFrame.login(LoginFrame.java:211)
+	at com.flekssina.chat.client.ui.LoginFrame.lambda$initComponents$0(LoginFrame.java:138)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-18 13:46:30.263 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:46:45.079 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:46:45.081 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:46:52.729 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:46:52.731 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 13:46:52.732 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 13:46:52.831 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь mm подключился
+2025-05-18 13:46:56.400 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 13:46:56.452 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь mm отключился
+2025-05-18 13:46:56.454 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь mm отключился
+2025-05-18 13:47:03.541 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:47:03.543 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:47:03.548 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:47:03.569 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь m подключился
+2025-05-18 13:47:03.592 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь m отключился
+2025-05-18 13:47:03.594 [Thread-0] ERROR com.flekssina.chat.client.ChatClient - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.client.ChatClient.receiveMessages(ChatClient.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 13:47:03.596 [Thread-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:47:12.228 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:50:19.354 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:50:19.359 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:50:32.028 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:50:32.030 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:50:32.035 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:50:32.050 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ddd подключился
+2025-05-18 13:50:35.467 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ddd: dmfkdmfm
+2025-05-18 13:50:38.424 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ddd: dkdmd
+2025-05-18 13:50:46.041 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ddd отключился
+2025-05-18 13:50:46.041 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:50:46.043 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ddd отключился
+2025-05-18 13:50:51.808 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:50:57.060 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:50:57.062 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:51:04.938 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:51:17.432 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:51:17.435 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:51:30.567 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:51:30.569 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:51:30.573 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:51:30.617 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ee подключился
+2025-05-18 13:51:36.318 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ee: dnfjdnf
+2025-05-18 13:51:47.528 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 13:51:47.533 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:51:47.550 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 13:51:47.605 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь eeeerfe подключился
+2025-05-18 13:51:53.311 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от eeeerfe: dnfknfdfks
+2025-05-18 13:51:58.267 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ee: dmkmdv m
+2025-05-18 13:52:01.035 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ee отключился
+2025-05-18 13:52:01.037 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:52:01.038 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ee отключился
+2025-05-18 13:56:14.262 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 13:56:14.281 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь eeeerfe отключился
+2025-05-18 13:56:14.282 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь eeeerfe отключился
+2025-05-18 13:56:23.791 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 13:56:31.116 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 13:56:31.119 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 13:56:37.561 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:56:37.563 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 13:56:37.569 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 13:56:37.617 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ыыы подключился
+2025-05-18 13:56:45.734 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 13:56:45.736 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 13:56:45.738 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 13:56:45.808 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь аа подключился
+2025-05-18 13:56:49.080 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от аа: ыыыыыы
+2025-05-18 13:56:56.226 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ыыы отключился
+2025-05-18 13:56:56.229 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ыыы отключился
+2025-05-18 13:56:56.230 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 13:57:09.803 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 13:57:09.845 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь аа отключился
+2025-05-18 13:57:09.846 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь аа отключился
+2025-05-18 13:57:22.577 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:35:04.795 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 17:35:04.800 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:35:21.312 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:35:21.313 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:35:21.319 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:35:21.336 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь алина подключился
+2025-05-18 17:35:27.122 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь алина отключился
+2025-05-18 17:35:27.122 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:35:27.123 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь алина отключился
+2025-05-18 17:35:47.113 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:36:07.929 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 17:36:07.931 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:36:17.682 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:36:17.686 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 17:36:17.684 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 17:36:17.732 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина подключился
+2025-05-18 17:36:33.609 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:36:33.611 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:36:33.617 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:36:33.637 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь виктория подключился
+2025-05-18 17:36:43.411 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: алина
+2025-05-18 17:36:51.378 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: ты опять не помыла посуду
+2025-05-18 17:36:57.673 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: дура ты тупая
+2025-05-18 17:37:02.593 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: я тебя ненавижу
+2025-05-18 17:37:29.879 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от алина: за что ты так со мной
+2025-05-18 17:40:25.068 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от алина: пока
+2025-05-18 17:40:28.682 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: блять
+2025-05-18 17:40:32.895 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: че за х
+2025-05-18 17:40:42.420 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: бляялялляляьяьялчолтыт
+2025-05-18 17:40:45.165 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от виктория: пымпмч и
+2025-05-18 17:40:49.778 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от алина: пиздец
+2025-05-18 17:41:03.435 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 17:41:03.463 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина отключился
+2025-05-18 17:41:03.466 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь алина отключился
+2025-05-18 17:41:10.535 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь виктория отключился
+2025-05-18 17:41:10.537 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь виктория отключился
+2025-05-18 17:41:10.538 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:41:17.929 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:44:09.942 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 17:44:09.945 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:44:15.643 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:44:15.645 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:44:15.651 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:44:15.696 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь вв подключился
+2025-05-18 17:44:18.840 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от вв: овтаовт
+2025-05-18 17:44:26.219 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:44:26.221 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:44:26.226 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:44:26.241 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ввв подключился
+2025-05-18 17:44:28.857 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ввв: выта
+2025-05-18 17:44:34.737 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от вв: воысытс
+2025-05-18 17:44:43.223 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ввв отключился
+2025-05-18 17:44:43.225 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:44:43.227 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ввв отключился
+2025-05-18 17:44:57.300 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:44:57.302 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 17:44:57.303 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 17:44:57.380 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь уууу подключился
+2025-05-18 17:45:03.484 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от вв: ьаьаатат
+2025-05-18 17:45:07.258 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от уууу: выьасдь
+2025-05-18 17:45:10.851 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 17:45:10.867 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь уууу отключился
+2025-05-18 17:45:10.868 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь уууу отключился
+2025-05-18 17:45:13.610 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь вв отключился
+2025-05-18 17:45:13.613 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь вв отключился
+2025-05-18 17:45:13.612 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:52:01.011 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 17:52:01.014 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:52:01.015 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:52:10.522 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:52:14.662 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 17:52:14.664 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:52:30.528 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 17:52:30.533 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:52:30.534 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 17:52:30.535 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:52:30.538 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:52:30.549 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь прикол подключился
+2025-05-18 17:52:30.651 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 17:52:30.651 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 17:52:33.750 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от прикол: ввв
+2025-05-18 17:52:36.257 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от прикол: ввв
+2025-05-18 17:52:37.721 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от прикол: вв
+2025-05-18 17:52:39.290 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от прикол: ввв
+2025-05-18 17:52:40.120 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от прикол: вв
+2025-05-18 17:52:43.876 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: прикол
+2025-05-18 17:52:43.877 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: прикол
+2025-05-18 17:52:43.877 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:52:43.880 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: прикол
+2025-05-18 17:52:50.872 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:53:00.891 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 17:53:00.893 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:53:06.412 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 17:53:06.447 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:53:06.448 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 17:53:06.449 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:53:06.452 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:53:06.494 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ввв подключился
+2025-05-18 17:53:06.599 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 17:53:06.600 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 17:53:16.457 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:53:16.459 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 17:53:16.459 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 17:53:16.460 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 17:53:16.533 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь пп подключился
+2025-05-18 17:53:22.456 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от пп: привет
+2025-05-18 17:53:25.911 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ввв: как дела
+2025-05-18 17:53:34.975 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от пп: кто ты такая
+2025-05-18 17:53:37.951 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ввв: я дура
+2025-05-18 17:53:43.179 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 17:53:43.193 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: пп
+2025-05-18 17:53:43.194 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: пп
+2025-05-18 17:53:43.197 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: пп
+2025-05-18 17:53:50.681 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ввв
+2025-05-18 17:53:50.682 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ввв
+2025-05-18 17:53:50.682 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ввв
+2025-05-18 17:53:50.684 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:53:57.088 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:55:08.511 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 17:55:08.513 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:55:14.009 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:55:14.012 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 17:55:14.012 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 17:55:14.012 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 17:55:14.102 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь вв подключился
+2025-05-18 17:55:23.850 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 17:55:23.883 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:55:23.885 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 17:55:23.885 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:55:23.890 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:55:23.910 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь лл подключился
+2025-05-18 17:55:24.015 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 17:55:24.015 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 17:55:33.092 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от лл: че за прикол
+2025-05-18 17:55:35.696 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от вв: пока
+2025-05-18 17:55:38.115 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от вв: дура
+2025-05-18 17:55:43.226 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: лл
+2025-05-18 17:55:43.226 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: лл
+2025-05-18 17:55:43.230 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: лл
+2025-05-18 17:55:43.230 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:55:55.893 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:55:55.896 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 17:55:55.897 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 17:55:55.897 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 17:55:55.955 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь в подключился
+2025-05-18 17:56:04.731 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 17:56:04.734 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: в
+2025-05-18 17:56:04.734 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: в
+2025-05-18 17:56:04.735 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: в
+2025-05-18 17:56:16.712 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 17:56:16.741 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:56:16.743 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 17:56:16.743 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:56:16.747 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:56:16.759 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ллл подключился
+2025-05-18 17:56:16.864 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 6
+2025-05-18 17:56:16.865 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Первое сообщение в истории: че за прикол от лл
+2025-05-18 17:56:16.865 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Последнее сообщение в истории: дура от вв
+2025-05-18 17:56:16.865 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отправка истории: 6 сообщений
+2025-05-18 17:56:37.291 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ллл: тыы че оabutkf
+2025-05-18 17:56:39.833 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ллл: k;l
+2025-05-18 17:56:43.078 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ллл
+2025-05-18 17:56:43.079 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ллл
+2025-05-18 17:56:43.079 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ллл
+2025-05-18 17:56:43.083 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 17:57:08.050 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 17:57:08.069 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: вв
+2025-05-18 17:57:08.070 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: вв
+2025-05-18 17:57:08.071 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: вв
+2025-05-18 17:57:13.272 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 17:59:44.569 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 17:59:44.571 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 17:59:51.060 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 17:59:51.092 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 17:59:51.095 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 17:59:51.096 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 17:59:51.098 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 17:59:51.138 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь sd подключился
+2025-05-18 17:59:51.244 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 17:59:51.244 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:00:00.320 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:00:00.352 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:00:00.354 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:00:00.354 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:00:00.357 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:00:00.369 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь dd подключился
+2025-05-18 18:00:00.475 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:00:00.476 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:00:04.398 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от dd: djjfn
+2025-05-18 18:00:08.831 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от sd: fmklskdl
+2025-05-18 18:00:22.928 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:00:22.930 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 18:00:22.931 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 18:00:22.931 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 18:00:22.957 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь ghbd подключился
+2025-05-18 18:00:28.735 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от sd: ghbdt
+2025-05-18 18:00:38.242 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: dd
+2025-05-18 18:00:38.243 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: dd
+2025-05-18 18:00:38.246 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: dd
+2025-05-18 18:00:38.247 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:00:46.212 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 18:00:46.246 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ghbd
+2025-05-18 18:00:46.261 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: ghbd
+2025-05-18 18:00:46.268 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ghbd
+2025-05-18 18:00:57.586 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:00:57.621 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:00:57.623 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:00:57.623 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:00:57.626 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:00:57.638 [pool-1-thread-3] INFO  c.f.chat.server.ClientHandler - Пользователь dddwsd подключился
+2025-05-18 18:00:57.739 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 6
+2025-05-18 18:00:57.739 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - Первое сообщение в истории: djjfn от dd
+2025-05-18 18:00:57.739 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - Последнее сообщение в истории: ghbdt от sd
+2025-05-18 18:00:57.739 [pool-1-thread-3] INFO  c.f.chat.server.ClientHandler - Отправка истории: 6 сообщений
+2025-05-18 18:01:25.518 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:01:25.520 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 18:01:25.520 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 18:01:25.520 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 18:01:25.580 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь 222 подключился
+2025-05-18 18:01:28.580 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от 222: fdjnf v
+2025-05-18 18:01:37.275 [pool-1-thread-3] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: dddwsd
+2025-05-18 18:01:37.276 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: dddwsd
+2025-05-18 18:01:37.277 [pool-1-thread-3] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: dddwsd
+2025-05-18 18:01:37.281 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:01:48.431 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: sd
+2025-05-18 18:01:48.433 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: sd
+2025-05-18 18:01:48.434 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: sd
+2025-05-18 18:01:48.434 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:01:53.980 [Thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: 222
+2025-05-18 18:01:53.982 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: 222
+2025-05-18 18:01:53.984 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:06:14.397 [AWT-EventQueue-0] ERROR c.f.chat.client.xml.XMLChatClient - Ошибка при выходе из чата
+java.net.SocketException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1231)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1218)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at com.flekssina.chat.common.xml.XMLProtocol.sendXML(XMLProtocol.java:87)
+	at com.flekssina.chat.client.xml.XMLChatClient.logout(XMLChatClient.java:73)
+	at com.flekssina.chat.client.ui.XMLChatFrame.logout(XMLChatFrame.java:185)
+	at com.flekssina.chat.client.ui.XMLChatFrame.lambda$initComponents$3(XMLChatFrame.java:123)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3404)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-18 18:06:14.567 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 18:19:25.270 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 18:19:25.273 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:19:36.642 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:19:36.647 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:19:36.649 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:19:36.649 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:19:36.652 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:19:36.664 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь прик подключился
+2025-05-18 18:19:36.769 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:19:36.770 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:19:46.673 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от прик: привет
+2025-05-18 18:19:50.425 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от прик: как ты
+2025-05-18 18:20:00.880 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: прик
+2025-05-18 18:20:00.881 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:20:00.882 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: прик
+2025-05-18 18:20:00.886 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: прик
+2025-05-18 18:20:10.807 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:20:26.776 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 18:20:26.778 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:20:33.078 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:20:33.112 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:20:33.115 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:20:33.115 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:20:33.118 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:20:33.161 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь вв подключился
+2025-05-18 18:20:33.264 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:20:33.264 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:22:41.345 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:22:41.390 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:22:41.404 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:22:41.404 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:22:41.405 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:22:41.420 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ппрр подключился
+2025-05-18 18:22:41.526 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:22:41.526 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:22:47.542 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ппрр: привет
+2025-05-18 18:22:51.092 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от вв: как дела
+2025-05-18 18:23:09.029 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:23:09.030 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 18:23:09.031 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 18:23:09.032 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 18:23:09.110 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь ппрзззз подключился
+2025-05-18 18:23:19.930 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: вв
+2025-05-18 18:23:19.931 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: вв
+2025-05-18 18:23:19.935 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: вв
+2025-05-18 18:23:19.935 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:23:31.919 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 18:23:31.938 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ппрзззз
+2025-05-18 18:23:31.938 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: ппрзззз
+2025-05-18 18:23:31.939 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ппрзззз
+2025-05-18 18:23:36.560 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ппрр
+2025-05-18 18:23:36.560 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ппрр
+2025-05-18 18:23:36.561 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ппрр
+2025-05-18 18:23:36.564 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:23:53.824 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:23:57.348 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 18:23:57.350 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:24:02.327 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:24:09.619 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 18:24:09.621 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:24:15.119 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:24:15.150 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:24:15.153 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:24:15.153 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:24:15.156 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:24:15.196 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ыыы подключился
+2025-05-18 18:24:15.299 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:24:15.299 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:24:20.668 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ыыы: жопа
+2025-05-18 18:24:23.078 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ыыы: пока
+2025-05-18 18:24:34.373 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:24:34.406 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:24:34.407 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:24:34.407 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:24:34.411 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:24:34.426 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Пользователь ыыыдфд подключился
+2025-05-18 18:24:34.529 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 2
+2025-05-18 18:24:34.529 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Первое сообщение в истории: жопа от ыыы
+2025-05-18 18:24:34.529 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Последнее сообщение в истории: пока от ыыы
+2025-05-18 18:24:34.529 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отправка истории: 2 сообщений
+2025-05-18 18:24:41.021 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ыыы: привет
+2025-05-18 18:24:51.652 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ыыыдфд: как твои днлв
+2025-05-18 18:24:54.848 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Сообщение от ыыыдфд: норм
+2025-05-18 18:25:03.735 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:25:03.737 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 18:25:03.738 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 18:25:03.739 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 18:25:03.811 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь ппп подключился
+2025-05-18 18:25:46.776 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ыыыдфд
+2025-05-18 18:25:46.777 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:25:46.778 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ыыыдфд
+2025-05-18 18:25:46.785 [pool-1-thread-2] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ыыыдфд
+2025-05-18 18:25:56.012 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 18:25:56.040 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ппп
+2025-05-18 18:25:56.043 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: ппп
+2025-05-18 18:25:56.045 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ппп
+2025-05-18 18:26:02.393 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ыыы
+2025-05-18 18:26:02.396 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ыыы
+2025-05-18 18:26:02.396 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:26:02.397 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ыыы
+2025-05-18 18:34:13.331 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:34:20.071 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 18:34:20.073 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:34:28.695 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:34:28.731 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:34:28.732 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:34:28.733 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:34:28.738 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:34:28.784 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь при подключился
+2025-05-18 18:34:28.890 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:34:28.890 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:34:39.880 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:34:39.881 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 18:34:39.882 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 18:34:39.883 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 18:34:39.959 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь али подключился
+2025-05-18 18:34:50.840 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от али: как твои дела
+2025-05-18 18:34:56.945 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от при: все хоршо
+2025-05-18 18:35:02.321 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от при: мдааа
+2025-05-18 18:35:08.510 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от али: ты как живешь
+2025-05-18 18:35:23.533 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - XML-сообщение от али: привет
+2025-05-18 18:35:31.507 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 18:35:31.543 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: али
+2025-05-18 18:35:31.545 [pool-1-thread-2] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: али
+2025-05-18 18:35:31.550 [pool-1-thread-2] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: али
+2025-05-18 18:35:42.996 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:35:42.999 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 18:35:42.999 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 18:35:43.000 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 18:35:52.435 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:35:52.435 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 18:35:52.437 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 18:35:52.437 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 18:35:52.441 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь хвюхай подключился
+2025-05-18 18:35:56.519 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от при: вроат
+2025-05-18 18:35:59.020 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: при
+2025-05-18 18:35:59.021 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: при
+2025-05-18 18:35:59.022 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: при
+2025-05-18 18:35:59.024 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:36:11.887 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 18:36:11.943 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: хвюхай
+2025-05-18 18:36:11.944 [pool-1-thread-3] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: хвюхай
+2025-05-18 18:36:11.944 [pool-1-thread-3] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: хвюхай
+2025-05-18 18:37:52.448 [main] ERROR com.flekssina.chat.server.ChatServer - Ошибка при запуске сервера
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at com.flekssina.chat.server.ChatServer.start(ChatServer.java:43)
+	at com.flekssina.chat.server.ServerApp.main(ServerApp.java:14)
+2025-05-18 18:37:52.450 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:37:52.452 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:38:00.588 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:38:00.592 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:38:00.594 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:38:00.595 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:38:00.596 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:38:00.602 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Пользователь ввв подключился
+2025-05-18 18:38:00.708 [pool-1-thread-4] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 9
+2025-05-18 18:38:00.708 [pool-1-thread-4] INFO  com.flekssina.chat.server.ChatServer - Первое сообщение в истории: как твои дела от али
+2025-05-18 18:38:00.708 [pool-1-thread-4] INFO  com.flekssina.chat.server.ChatServer - Последнее сообщение в истории: вроат от при
+2025-05-18 18:38:00.708 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Отправка истории: 9 сообщений
+2025-05-18 18:38:17.221 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ввв
+2025-05-18 18:38:17.221 [pool-1-thread-4] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ввв
+2025-05-18 18:38:17.221 [pool-1-thread-4] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ввв
+2025-05-18 18:38:17.222 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:38:43.482 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:52:49.840 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 18:52:49.848 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:52:59.707 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:52:59.711 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:52:59.712 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:52:59.712 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:52:59.715 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:52:59.726 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь dd подключился
+2025-05-18 18:52:59.832 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:52:59.832 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:53:22.518 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: dd
+2025-05-18 18:53:22.519 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: dd
+2025-05-18 18:53:22.519 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 18:53:22.523 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: dd
+2025-05-18 18:53:41.578 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 18:59:29.096 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 18:59:29.099 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 18:59:40.796 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 18:59:40.801 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 18:59:40.802 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 18:59:40.802 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 18:59:40.806 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 18:59:40.817 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь fff подключился
+2025-05-18 18:59:40.921 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 18:59:40.921 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 18:59:59.626 [pool-1-thread-1] ERROR c.f.chat.server.ClientHandler - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.server.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 18:59:59.632 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: fff
+2025-05-18 18:59:59.634 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: fff
+2025-05-18 19:03:06.728 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 19:03:24.242 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 19:03:24.245 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 19:03:31.453 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 19:03:31.458 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 19:03:31.459 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 19:03:31.459 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 19:03:31.461 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 19:03:31.472 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь njjjn подключился
+2025-05-18 19:03:31.578 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 19:03:31.579 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 19:03:49.300 [pool-1-thread-1] ERROR c.f.chat.server.ClientHandler - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.server.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 19:03:49.302 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: njjjn
+2025-05-18 19:03:49.303 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: njjjn
+2025-05-18 19:03:53.162 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 19:03:59.036 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 19:03:59.039 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 19:04:08.992 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 19:04:08.998 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 19:04:08.999 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 19:04:08.999 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 19:04:09.003 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 19:04:09.015 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ghbd подключился
+2025-05-18 19:04:09.120 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 19:04:09.121 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 19:04:53.525 [pool-1-thread-1] ERROR c.f.chat.server.ClientHandler - Ошибка при чтении сообщения
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3241)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1701)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at com.flekssina.chat.server.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-18 19:04:53.528 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ghbd
+2025-05-18 19:04:53.529 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ghbd
+2025-05-18 19:05:18.150 [Thread-1] INFO  com.flekssina.chat.server.ChatServer - Сервер остановлен
+2025-05-18 19:06:23.693 [main] INFO  com.flekssina.chat.server.ChatServer - Сервер запущен на порту 9999
+2025-05-18 19:06:23.704 [main] INFO  com.flekssina.chat.server.ServerApp - Для остановки сервера нажмите Ctrl+C
+2025-05-18 19:06:37.875 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключение к серверу localhost:9999
+2025-05-18 19:06:37.881 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 19:06:37.882 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 0
+2025-05-18 19:06:37.883 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен Java-клиент
+2025-05-18 19:06:37.886 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Подключен к серверу localhost:9999
+2025-05-18 19:06:37.899 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Пользователь ddd подключился
+2025-05-18 19:06:38.003 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Текущий размер истории сообщений: 0
+2025-05-18 19:06:38.003 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отправка истории: 0 сообщений
+2025-05-18 19:06:45.225 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Сообщение от ddd: djdjdj
+2025-05-18 19:06:47.991 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ddd
+2025-05-18 19:06:47.992 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - Java-клиент удален из списка: ddd
+2025-05-18 19:06:47.993 [AWT-EventQueue-0] INFO  com.flekssina.chat.client.ChatClient - Отключен от сервера
+2025-05-18 19:06:47.995 [pool-1-thread-1] INFO  c.f.chat.server.ClientHandler - Отключение пользователя: ddd
+2025-05-18 19:06:57.953 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Новое соединение: /127.0.0.1
+2025-05-18 19:06:57.955 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Тип клиента: 1
+2025-05-18 19:06:57.955 [Thread-0] INFO  com.flekssina.chat.server.ChatServer - Определен XML-клиент
+2025-05-18 19:06:57.956 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент подключен к серверу localhost:9999
+2025-05-18 19:06:58.033 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - XML-пользователь ddd подключился
+2025-05-18 19:07:07.548 [AWT-EventQueue-0] INFO  c.f.chat.client.xml.XMLChatClient - XML-клиент отключен от сервера
+2025-05-18 19:07:07.583 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ddd
+2025-05-18 19:07:07.584 [pool-1-thread-1] INFO  com.flekssina.chat.server.ChatServer - XML-клиент удален из списка: ddd
+2025-05-18 19:07:07.585 [pool-1-thread-1] INFO  c.f.chat.server.xml.XMLClientHandler - Отключение XML-пользователя: ddd

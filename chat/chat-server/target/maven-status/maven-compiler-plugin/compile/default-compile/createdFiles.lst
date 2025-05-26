@@ -1,0 +1,7 @@
+com/flekssina/chat/server/ChatServer.class
+com/flekssina/chat/server/xml/XMLClientHandler$1.class
+com/flekssina/chat/server/ServerApp.class
+com/flekssina/chat/server/ClientHandler$1.class
+com/flekssina/chat/server/ClientHandler.class
+com/flekssina/chat/server/xml/XMLClientHandler.class
+com/flekssina/chat/server/ServerConfig.class

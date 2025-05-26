@@ -1,0 +1,16 @@
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/MessageType.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/Message.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLSuccessResponse.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLErrorResponse.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLUserLogoutEvent.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/ChatConstants.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLListCommand.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLMessage.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLMessageEvent.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLUserLoginEvent.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/User.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLLoginCommand.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLLogoutCommand.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLMessageCommand.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLMessageType.java
+/Users/flekssina/Downloads/chat/chat-common/src/main/java/com/flekssina/chat/common/xml/XMLProtocol.java
