@@ -1,0 +1,33 @@
+2025-05-26 12:04:55 INFO org.example.Main main: Настройки логирования загружены
+2025-05-26 12:04:55 INFO org.example.Main main: Приложение запущено
+2025-05-26 12:04:55 INFO org.example.context.CalculatorContext <init>: Контекст калькулятора инициализирован
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: PRINT -> org.example.commands.PrintCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: ADD -> org.example.commands.AddCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: SQRT -> org.example.commands.SqrtCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: * -> org.example.commands.MultiplyCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: + -> org.example.commands.AddCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: DEFINE -> org.example.commands.DefineCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: SUBTRACT -> org.example.commands.SubtractCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: - -> org.example.commands.SubtractCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: DIVIDE -> org.example.commands.DivideCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: / -> org.example.commands.DivideCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: POP -> org.example.commands.PopCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: MULTIPLY -> org.example.commands.MultiplyCommand
+2025-05-26 12:04:55 INFO org.example.factory.CommandFactory loadCommandsFromProperties: Загружено сопоставление команды: PUSH -> org.example.commands.PushCommand
+2025-05-26 12:04:55 INFO org.example.Calculator <init>: Калькулятор инициализирован
+2025-05-26 12:04:55 INFO org.example.Main main: Запуск в интерактивном режиме
+2025-05-26 12:05:01 SEVERE org.example.factory.CommandFactory createCommand: Команда не найдена: DDD
+2025-05-26 12:05:01 SEVERE org.example.parser.CommandParser parseLine: Ошибка выполнения команды DDD: Command not found: DDD
+org.example.exceptions.CommandNotFoundException: Command not found: DDD
+	at org.example.factory.CommandFactory.createCommand(CommandFactory.java:48)
+	at org.example.parser.CommandParser.parseLine(CommandParser.java:53)
+	at org.example.Main.main(Main.java:51)
+
+2025-05-26 12:05:26 SEVERE org.example.parser.CommandParser parseLine: Ошибка выполнения команды PUSH: Команда PUSH требует ровно один аргумент
+org.example.exceptions.CommandExecutionException: Команда PUSH требует ровно один аргумент
+	at org.example.commands.PushCommand.execute(PushCommand.java:14)
+	at org.example.parser.CommandParser.parseLine(CommandParser.java:54)
+	at org.example.Main.main(Main.java:51)
+
+2025-05-26 12:05:30 INFO org.example.commands.PushCommand execute: PUSH: 12.0 (Размер стека: 1)
+2025-05-26 12:05:34 INFO org.example.Main main: Приложение завершено
